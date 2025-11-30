@@ -31,9 +31,7 @@ I engineered a Python-based **Schema Mapper** that is structure-agnostic. It rea
 
 ## ✨ Key Features
 * **Structure Agnostic:** Works regardless of column order in the source file.
-* **Dual-Format Output:** Generates both:
-    * `Oracle_HDL_Ready.xlsx` (for stakeholder review/sign-off).
-    * `Worker.dat` (Pipe-delimited file for direct Oracle ingestion).
+* **HSDL Automation:** Generates formatted `.xlsx` artifacts ready for the **Oracle HCM Spreadsheet Data Loader (HSDL)**.
 * **Smart Normalization:** Handles HR-specific jargon (`dob`, `addr`, `sal`) out of the box.
 
 ## 🛠️ Technical Implementation
